@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import software.bernie.geckolib3.GeckoLib;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(ArsTitans.MODID)
@@ -24,8 +25,13 @@ public class ArsTitans
 
     public ArsTitans() {
         IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        //registries
         ModRegistry.registerRegistries(modbus);
         ArsNouveauRegistry.registerGlyphs();
+
+        GeckoLib.initialize();
+
         modbus.addListener(this::setup);
         modbus.addListener(this::doClientStuff);
         MinecraftForge.EVENT_BUS.register(this);
