@@ -1,0 +1,10 @@
+{
+  "ars_titans.glyph_desc.glyph_square": "A glyph for squared shapes. Use sensitive for a vertical square, dampen to make it hollow, amplify + sensitive for a ramp shape and pierce to make a cube. Each AOE doubles the size of the shape. The shape is always drawn from the bottom left corner.",
+  "ars_titans.glyph_name.glyph_square": "Squared shapes",
+  "ars_titans.glyph_desc.glyph_circle": "A glyph for circular shapes. Use sensitive for a vertical circle, dampen to make it hollow and pierce to make a sphere. Each AOE doubles the size of the shape. The shape is always drawn from the bottom middle.",
+  "ars_titans.glyph_name.glyph_circle": "Circular shapes",
+  "ars_titans.glyph_desc.glyph_aura": "An aura that has effect 5 blocks around the player. Use AOE to increase the radius of the aura, extend time to increase the duration. Use amplify to make the aura cover every block around the player. Use dampen to make the aura a half sphere from where the player is standing upwards. Use sensitive to make the aura a half sphere from where the player is standing downwards. Use sensitive to affect entities instead of blocks.",
+  "ars_titans.glyph_name.glyph_aura": "Aura",
+  "effect.ars_titans.glyph_aura": "Aura",
+  "item.ars_titans.star_hat": "Example hat"
+}

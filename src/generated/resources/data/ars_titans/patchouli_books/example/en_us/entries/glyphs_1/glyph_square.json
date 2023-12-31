@@ -1,0 +1,16 @@
+{
+  "category": "ars_nouveau:glyphs_1",
+  "icon": "ars_titans:glyph_square",
+  "name": "ars_titans.glyph_name.glyph_square",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "ars_titans.glyph_desc.glyph_square"
+    },
+    {
+      "type": "ars_nouveau:glyph_recipe",
+      "recipe": "ars_titans:glyph_square"
+    }
+  ],
+  "sortnum": 2
+}

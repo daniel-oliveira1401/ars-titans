@@ -1,0 +1,28 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 27,
+  "inputItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:manipulation_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:diamond_block"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_block"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:slime_ball"
+      }
+    }
+  ],
+  "output": "ars_titans:glyph_circle"
+}
